@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Hachi+Maru+Pop&family=Handlee&family=Merienda&display=swap');
+
+body {
+  position: fixed;
+  background: url('./assets/images/jean-wallpaper.jpg');
+  background-size: auto;
+  font-family: 'Merienda', cursive;
+  font-size: 12px;
+}
+
+button {
+  appearance: none;
+  background-color: transparent;
+  border: 0.125em solid #1A1A1A;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+ }
+ 
+ button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+ }
+ 
+ button:active {
+  box-shadow: none;
+  transform: translateY(0);
+ }
+
+.principal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.character--geral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #DDC9AC;
+  border-top: 2px solid #FEEED5;
+  border-right: 2px solid #FEEED5;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #DDC9AC,
+    -20px -20px 60px #DDC9AC;
+  border-radius: 25px;
+  transition: 2s;
+}
+
+.character--principal {
+  /* border: solid red 2px; */
+  max-height: 230px;
+  max-width: 250px;
+  min-height: 230px;
+  min-width: 250px;
+}
+
+.character--infos {
+  /* margin-right: 100px; */
+}
+
+.character--image {
+  height: 476px;
+  width: 555, 5px;
+}
+
+.character--invisible {
+  opacity: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #DDC9AC;
+  padding: 10px;
+  font-size: 5px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 25px;
+  transition: 2s;
+}
+
+.infos--description {
+  font-family: 'Merienda', cursive;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.remove--button {
+  position: fixed;
+  margin-left: 90vw;
+  margin-top: 90vh;
+}
